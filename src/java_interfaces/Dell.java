@@ -1,0 +1,32 @@
+package java_interfaces;
+
+public class Dell  implements Laptop{
+
+	@Override
+	public void copy() {
+		System.out.println("Dell copy code ");
+		
+	}
+
+	@Override
+	public void paste() {
+		System.out.println("Dell paste code");
+		
+		
+	}
+
+	@Override
+	public void cut() {
+		System.out.println("Dell cut code");
+		
+		
+	}
+
+	@Override
+	public void keyboard() {
+		System.out.println( "dell keyword code");
+		
+		
+	}
+
+}
